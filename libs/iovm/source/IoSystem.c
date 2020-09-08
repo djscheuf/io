@@ -22,9 +22,7 @@ Contains methods related to the IoVM.
 #if defined(__NetBSD__) || defined(__OpenBSD__)
 # include <sys/param.h>
 #endif
-#ifndef __CYGWIN__
-# include <sys/sysctl.h>
-#endif
+
 #endif
 
 //#define WIN32
